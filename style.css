@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #243b55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+}
+
+h1 {
+    color: #243b55;
+    font-size: 26px;
+}
+
+#password {
+    width: 95%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+#length {
+    width: 100%;
+    margin: 15px 0;
+}
+
+button {
+    background: #2878d0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+button:hover {
+    background: #1558a5;
+}
+
+#message {
+    overflow-wrap: anywhere;
+}
